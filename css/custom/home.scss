@@ -1,0 +1,115 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+section {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+h1 {
+  text-align: center;
+  font-family: "catamaran";
+  margin: 30px;
+}
+.research-question {
+    color: white;
+    font-size: 35px;
+    font-family: "Montserrat";
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.paragraph {
+  text-align: center;
+  font-family: "catamaran";
+  font-size: 20px;
+}
+.nav-text {
+  color: rgb(255, 255, 255);
+  font-size: 1.25em;
+  z-index: 2;
+}
+.header {
+  position: relative;
+  //background-color: $hero-background;
+  background-image: url("/assets/flying-gripen.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-nav {
+  display: block;
+  background: linear-gradient(black, #424242);
+  opacity: 0.5;
+  top: 0;
+  height: 10%;
+  width: 100%;
+  z-index: 1;
+}
+.hero {
+  overflow: hidden;
+  padding-bottom: 250px;
+  padding-top: 180px;
+}
+.metal-image-container {
+  //background-color: rgba(156, 156, 156, 0.15);
+  //border-radius: 7px;
+}
+.metal-data-container {
+  background-color: rgba(49, 49, 49, 0.4);
+  border-radius: 7px;
+}
+.metal-image {
+  position: relative;
+  padding: 20px;
+  //min-height: 100%;
+  //min-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+}
+.metal-slide {
+  min-height: 75%;
+  min-width: 100%;
+}
+.metal-title {
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-align: center;
+  min-width: auto;
+  font-size: 30px;
+  margin: 10px;
+}
+.metal-data {
+  min-width: 100%;
+  min-height: 100%;
+}
+.metal-header {
+  color: rgb(107, 107, 107);
+  text-align: center;
+}
+.metal-p {
+  color: rgb(61, 61, 61);
+  text-align: center;
+  margin: 45px;
+  margin-top: 25px;
+  font-size: 12;
+  font-family: "Montserrat";
+}
+
+.page-footer {
+  background: linear-gradient(#0c1d72, black);
+  color: rgb(202, 201, 201);
+  font-family: "Catamaran";
+}
+.toxic-image {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
